@@ -13,7 +13,7 @@ function thinkOfLetter() {
 
 function newGame() {
     letter = thinkOfLetter();
-    // console.log(letter);
+    console.log("I'm thinking of " + letter);
     numGuesses = 9;
     guessedLetters = [];
     // console.log(guessedLetters);
